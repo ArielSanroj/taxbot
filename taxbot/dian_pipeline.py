@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import logging
 import os
+import re
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -186,7 +187,12 @@ def summarize_text(text: str) -> str:
         return "No hay contenido para resumir."
     if ollama is None:
         logging.warning("Ollama no está disponible.")
-        return "Resumen no disponible: Ollama no configurado."
+        sentences = re.split(r"(?<=[.!?]) +", text)
+        head = [sent for sent in sentences if sent.strip()][:4]
+        if not head:
+            return clean_text(text)[:500]
+        bullet_points = "\n".join(f"• {clean_text(sentence)}" for sentence in head)
+        return f"Resumen preliminar (fallback):\n{bullet_points}"
     prompt = (
         "Eres un abogado tributarista. Resume el siguiente concepto de la DIAN en un máximo de 6 frases, "
         "destacando implicaciones prácticas, cambios normativos, obligaciones y recomendaciones para clientes. "
@@ -204,7 +210,13 @@ def complementary_analysis(summary: str, concept: Concept) -> str:
     if not summary:
         return "Análisis no disponible."
     if ollama is None:
-        return "Análisis no disponible: Ollama no configurado."
+        details = [
+            f"Tema: {concept.theme}",
+            f"Descriptor: {concept.descriptor}" if concept.descriptor else "",
+            "Acción sugerida: revisar implicaciones para clientes afectados.",
+            "Recomendación: confirmar coherencia con obligaciones vigentes.",
+        ]
+        return "Análisis preliminar (fallback): " + " ".join(part for part in details if part)
     prompt = (
         "Actúa como consultor tributario sénior. Con base en el siguiente resumen y la información del concepto, "
         "identifica riesgos, oportunidades, acciones sugeridas y normas relacionadas. \nResumen: "

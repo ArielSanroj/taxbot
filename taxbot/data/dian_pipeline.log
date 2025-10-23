@@ -162,3 +162,73 @@
 2025-10-21 04:22:39,628 WARNING Ollama no está disponible.
 2025-10-21 04:22:39,647 INFO Archivo actualizado en /Users/arielsanroj/PycharmProjects/taxbot/taxbot/data/conceptos_dian.csv con 162 registros.
 2025-10-21 04:22:39,647 WARNING Configuración de correo incompleta, se omite el envío.
+2025-10-21 04:38:48,779 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,779 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,780 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,780 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,780 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,780 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,780 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,780 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,780 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,780 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,781 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,781 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,781 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,781 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,781 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,781 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,781 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,781 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,781 WARNING Ollama no está disponible.
+2025-10-21 04:38:48,781 WARNING Ollama no está disponible.
+2025-10-21 04:42:55,314 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-21 04:44:37,354 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-21 04:45:21,615 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-21 04:45:55,329 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-21 04:46:40,475 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-21 04:47:14,747 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-21 04:48:06,566 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-23 05:02:15,025 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,026 ERROR Error al resumir con Ollama: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,028 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,029 ERROR Error en análisis complementario: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,035 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,036 ERROR Error al resumir con Ollama: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,041 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,041 ERROR Error en análisis complementario: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,045 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,045 ERROR Error al resumir con Ollama: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,047 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,048 ERROR Error en análisis complementario: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,051 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,051 ERROR Error al resumir con Ollama: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,054 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,055 ERROR Error en análisis complementario: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,058 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,059 ERROR Error al resumir con Ollama: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,062 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,062 ERROR Error en análisis complementario: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,065 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,065 ERROR Error al resumir con Ollama: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,068 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,068 ERROR Error en análisis complementario: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,071 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,072 ERROR Error al resumir con Ollama: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,075 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,075 ERROR Error en análisis complementario: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,077 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,078 ERROR Error al resumir con Ollama: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,079 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,080 ERROR Error en análisis complementario: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,082 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,082 ERROR Error al resumir con Ollama: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,084 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,084 ERROR Error en análisis complementario: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,087 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,087 ERROR Error al resumir con Ollama: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,089 INFO HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-10-23 05:02:15,089 ERROR Error en análisis complementario: model 'llama3' not found (status code: 404)
+2025-10-23 05:02:15,103 INFO Archivo actualizado en /Users/arielsanroj/PycharmProjects/taxbot/taxbot/data/conceptos_dian.csv con 172 registros.
+2025-10-23 05:02:15,103 WARNING Configuración de correo incompleta, se omite el envío.
+2025-10-23 05:07:50,368 INFO No hay conceptos nuevos.
