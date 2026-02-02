@@ -1,22 +1,6 @@
-"""DIAN Pipeline - Backwards compatible entry point.
+"""DIAN Pipeline - Modular scraping and processing pipeline."""
 
-This module maintains backwards compatibility by re-exporting all
-components from the pipeline submodules.
-
-For new code, prefer importing directly from:
-- taxbot.pipeline.config
-- taxbot.pipeline.models
-- taxbot.pipeline.scraper
-- taxbot.pipeline.ai_processor
-- taxbot.pipeline.data_manager
-- taxbot.pipeline.email_notifier
-- taxbot.pipeline.runner
-"""
-
-from __future__ import annotations
-
-# Re-export everything from pipeline modules for backwards compatibility
-from .pipeline.config import (
+from .config import (
     BASE_URL,
     CSV_PATH,
     DATA_DIR,
@@ -29,8 +13,8 @@ from .pipeline.config import (
     configure_logging,
     session,
 )
-from .pipeline.models import Concept
-from .pipeline.scraper import (
+from .models import Concept
+from .scraper import (
     clean_text,
     collect_concepts,
     discover_month_links,
@@ -41,18 +25,17 @@ from .pipeline.scraper import (
     parse_month,
     strip_label,
 )
-from .pipeline.ai_processor import (
+from .ai_processor import (
     complementary_analysis,
     process_concepts,
     summarize_text,
 )
-from .pipeline.data_manager import (
+from .data_manager import (
     load_existing_records,
     merge_records,
 )
-from .pipeline.email_notifier import send_email
-from .pipeline.runner import main
-
+from .email_notifier import send_email
+from .runner import main
 
 __all__ = [
     # Config
@@ -91,7 +74,3 @@ __all__ = [
     # Runner
     "main",
 ]
-
-
-if __name__ == "__main__":
-    main()
